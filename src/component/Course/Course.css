@@ -208,3 +208,9 @@
     }
     
   }
+
+  @media (max-width: 550px) {
+    .viewCour{
+        width: 30vw;
+    }
+  }
