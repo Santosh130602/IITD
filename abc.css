@@ -1,0 +1,15 @@
+.CourseSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCF5FE;
+  }
+  
+  .coursepara {
+    display: flex;
+    background-color: #F4D6F8;
+    border-radius: 20px;
+    padding: 10px 20px; 
+    max-width: fit-content;
+  }
+  

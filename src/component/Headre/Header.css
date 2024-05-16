@@ -1,0 +1,15 @@
+/* Header.css */
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #3B3B3E;
+    padding: 10px;
+    color: #ffffffc6;
+  }
+  
+  .header-item {
+    margin: 0 20px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,210 @@
+/* .CourseSection{
+    background-color: #FCF5FE;
+    padding: 50px;
+}
+.coursepara{
+    border-radius: 20px;
+    background-color: #F4D6F8;
+    width: 20vw;
+    margin-left: 35vw;
+    padding: 10px;
+    font-size: smaller;
+    text-align: center;
+} */
+
+
+/* Course.css */
+
+/* .CourseSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCF5FE;
+  }
+  
+  .coursepara {
+    display: flex;
+    background-color: #F4D6F8;
+    border-radius: 20px;
+    padding: 10px 20px; 
+    max-width: fit-content;
+  }
+   */
+  /* Course.css */
+
+/* .CourseSection {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCF5FE;
+  }
+  
+  .coursepara {
+    background-color: #F4D6F8;
+    border-radius: 20px;
+    padding: 10px 20px; 
+    max-width: fit-content;
+    margin-bottom: 10px; /* Add some bottom margin to create space */
+  /* }
+  
+  .headingWrapper {
+    display: block; /* Ensure the div takes full width */
+    /* text-align: center; /* Center the content horizontally */
+  /* } */
+  
+
+
+
+
+/* 
+
+.CourseSection {
+    text-align: center;
+    background-color: #FCF5FE;
+}
+
+.coursepara {
+    background-color: #F4D6F8;
+    border-radius: 20px;
+    padding: 10px 20px; 
+    display: inline-block; 
+    font-size:x-small;
+} */
+
+/* .CourseH1 {
+    display: block; 
+    margin-top: 10px; 
+}
+
+.CourseH1 span {
+    color: rgba(0, 0, 0, 0.388); 
+}
+
+.CourseH1 span:last-child {
+    color: rgba(0, 0, 0, 0.632); 
+} */
+/* .CourseDetailse{
+    margin: 2rem 8rem 2rem 8rem;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: left; */
+    /* padding: 5rem; */
+
+/* } */
+/* .Cplus{
+    display: flex;
+    padding: 20px;
+}
+
+.viewCour{
+    height: 35px;
+    width: 200px;
+    margin-left: 30vw;
+    background-color: #F9EBFC;
+    border-radius: 20px;
+    margin-top: 25px;
+} */
+
+
+
+.CourseSection {
+    text-align: center;
+    background-color: #FCF5FE;
+}
+
+.coursepara {
+    margin-top: 5rem;
+    background-color: #F4D6F8;
+    border-radius: 20px;
+    padding: 10px 20px; 
+    display: inline-block; 
+    font-size: x-small;
+}
+
+.CourseH1 {
+    display: block; 
+    margin-top: 10px; 
+}
+
+.CourseH1 span {
+    color: rgba(0, 0, 0, 0.388); 
+}
+
+.CourseH1 span:last-child {
+    color: rgba(0, 0, 0, 0.632); 
+}
+
+.CourseDetailse {
+    margin: 2rem 8rem 2rem 8rem;
+    background-color: white;
+    border-radius: 15px;
+    text-align: left;
+    /* margin-bottom: 5rem; */
+}
+
+.Cplus {
+    display: flex;
+    padding: 20px;
+}
+
+.viewCour {
+    background-color: #F9EBFC;
+    border-radius: 20px;
+    margin-left: auto; /* Move button to the right */
+    margin-top: 15px;
+    padding: 8px 16px; /* Adjust padding for better appearance */
+    border: none; /* Remove border */
+    height: 40px;
+    width: 200px;
+    
+}
+
+.opportunity{
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding: 4rem;
+    font-size: x-large;
+    text-align: center;
+}
+
+
+.dontmiss {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.dontmiss img {
+    width: 50vw; /* Ensure the image does not exceed the container width */
+    height: 30vh; /* Ensure the image does not exceed the container height */
+}
+
+/* .CompanySection{
+    background-color: #FFFCEA;
+    text-align: center;
+}
+.companyheading{
+    padding: 25px;
+} */
+
+
+
+@media (max-width: 650px) {
+    .viewCour{
+        width: 50vw;
+    }
+    .Cplus{
+        flex-direction: column;
+    }
+    .opportunity{
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .dontmiss img{
+        width: 80vw;
+        height: 30vh;
+    }
+    
+  }

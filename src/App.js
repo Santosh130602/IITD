@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
 
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import React from 'react';
+import './App.css';
+import PreHeader from './component/PreHeadre/preheader';
+import Header from './component/Headre/Header';
+import Hero from './component/Hero/Hero';
+import CountNumber from './component/Count/CountNumber';
+import Course from './component/Course/Course';
+import CompanySection from './component/CompanySection/CompanySection';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/* <BrowserRouter> */}
+      {/* <Routes> */}
+        {/* <Route path="/" element={<PreHeader />} /> */}
+        {/* <Route path="/" element={<Header />} /> */}
+        <PreHeader/>
+        <Header/>
+        <Hero/>
+        <CountNumber/>
+        <Course/>
+        <CompanySection/>
+
+        
+      {/* </Routes> */}
+    {/* </BrowserRouter> */}
+  </>
   );
 }
 
