@@ -1,59 +1,3 @@
-/* CompanySection.css */
-/* .CompanySection{
-    background-color: #FFFCEA;
-    text-align: center;
-}
-.companyheading{
-    padding: 25px;
-}
-
-.company-section {
-    width: 100%;
-    height: 300px; 
-    overflow: hidden; 
-  }
-  
-  
-  .company-logos {
-    display: flex;
-    animation: moveLeftToRight 30s linear infinite; 
-  }
-  
-  .logo-container {
-    background-color: white;
-    width: 257px; 
-    height: 134px;
-    border: 1px solid rgb(23, 23, 10);
-    gap: 10px;
-    margin: 0 40px; 
-  }
-  
-  @keyframes moveLeftToRight {
-    0% {
-      transform: translateX(-50%);
-    }
-    25%{
-        transform: translateX(-25%);
-    }
-    50%{
-        transform: translateX(0%);
-    }
-    75%{
-        transform: translateX(25%);
-    }
-    100% {
-      transform: translateX(50%);
-    }
-  }
-   */
-
-
-
-
-
-
-
-   /* CompanySection.css */
 
 .CompanySection {
     background-color: #FFFCEA;
@@ -64,43 +8,28 @@
     padding: 25px;
 }
 
+
 .company-section {
     margin-top: 25px;
     width: 100%;
-    height: 200px;
     overflow: hidden; 
     margin-bottom: 25px;
 }
   
 .company-logos {
     display: flex;
-    animation: moveLeftToRight 30s linear infinite; /* Adjust animation duration as needed */
+    align-items: center;
+    gap: 40px; 
+    animation: moveLeftToRight 30s linear infinite; 
+    margin-bottom: 20px;
+}
+.comp-logo {
+    height: 70px;
+}
+.logo-container{
+    margin-right: 30px;
 }
   
-.logo-container {
-    background-color: white;
-    width: 257px; /* Adjust width and height of logo containers */
-    height: 134px;
-    border: 1px solid rgb(23, 23, 10);
-    gap: 10px;
-    margin: 0 40px; 
-}
-  /* .finalSection{
-    text-align: center;
-    margin-top: 5rem;
-  }
-.two-section{
-    display: flex;
-}
-.first-section{
-    width: 40vw;
-}
-.second-section{
-    width: 40vw;
-
-} */
-
-/* FinalSection.css */
 .finalSection {
     text-align: center;
     margin-top: 5rem;
@@ -137,33 +66,33 @@
 
 .first-section h3,
 .second-section h3 {
-    text-align: center; /* Align heading text to center */
+    text-align: center; 
 }
 
 .first-section p,
 .second-section p {
-    text-align: center; /* Align paragraph text to center */
+    text-align: center; 
 }
 
 .first-section img,
 .second-section img {
-    max-width: 70%; /* Ensure images don't exceed container width */
-    max-height: 70%; /* Ensure images don't exceed container height */
+    max-width: 70%; 
+    max-height: 70%; 
     margin-bottom: 1rem;
 }
 
 .highlight {
-    margin-top: 1rem; /* Add margin to the highlight section */
+    margin-top: 1rem; 
 }
 
 .highlight .cantent {
     display: flex;
     align-items: center;
-    margin-bottom: 0.5rem; /* Add spacing between items */
+    margin-bottom: 0.5rem; 
 }
 
 .cantent img {
-    margin-right: 0.5rem; /* Add spacing between image and text */
+    margin-right: 0.5rem; 
 }
 
 
@@ -204,35 +133,10 @@
     }
 }
 
-/* .box{
-    background-color: #9747FF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 6rem;
-    border-radius: 15px;
-    padding: 20px;
-    width: 75vw;
-}
-.left-box{
-    flex:1;
-}
-
-.left-box h1{
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-    position: relative;
-}
-.right-box{
-    display: flex;
-    flex-direction: column;
-
-} */
-
-/* Box.css */
 .box {
     margin-left: 12vw;
-    background-color: #9747FF;
+    /* background-color: #9747FF; */
+    background: linear-gradient(140deg, #9747FF, #582997);
     display: flex;
     justify-content: center;
     align-items: center;
